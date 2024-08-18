@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: azure;
+    height: 100vh;
+}
+
+
+.first-section{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin: 20px auto;
+font-size: 30px;
+justify-content: space-between;
+}
+
+.first-section button{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.questionMark{
+    font-size: 100px;
+    background-color: rgb(36, 165, 165);
+    padding: 20px 70px;
+    width: fit-content;
+    color: #000;
+    margin: 50px auto 0px auto;
+    
+    
+    
+}
+
+.underline{
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    top: 330px;
+    width: 100%;
+    z-index: -1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    border: 2px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+.left input{
+    font-size: 30px;
+}
+
+.left button{
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
+
+
+
